@@ -10,7 +10,7 @@ Sample videos that the Ignis Player app offers to download, so people can try th
 - **Credit line:** (CC) Blender Foundation | studio.blender.org
 - **Source:** the Blender Studio release, as mirrored at [archive.org/details/sprite-fright-2021](https://archive.org/details/sprite-fright-2021)
 - **Changes made here:** the film was re-encoded for phones (1280×536 H.264 video, AAC audio, Matroska container), the cover image attachment was left out, and one typo in the English subtitles was fixed ("We sprite balance" → "We bring balance"). The film itself is complete and uncut, end credits included. Subtitle tracks: English, Russian, German, Hungarian, Italian, Portuguese, Spanish, Malayalam, as published with the film.
-- **File:** `sprite-fright.mkv` in release `sprite-fright-1`.
+- **File:** `sprite-fright.mkv` in release `sprite-fright-2`: every subtitle line starts on a keyframe and keyframes are at most 2 seconds apart, so jumping to a line or repeating it starts at once. Release `sprite-fright-1` holds the earlier encode with sparser keyframes, kept for app versions that download it.
 
 This repository and Ignis Player are not affiliated with or endorsed by the Blender Foundation. Logos and trademarks of the Blender Foundation and of the film are not covered by the CC BY license.
 
@@ -20,4 +20,4 @@ This repository and Ignis Player are not affiliated with or endorsed by the Blen
 
 Видео, которые приложение Ignis Player предлагает скачать, чтобы попробовать его без своих файлов.
 
-**Sprite Fright (2021)**: автор Blender Foundation, studio.blender.org, лицензия CC BY 4.0. Фильм не сокращён, титры сохранены. Для телефона видео пересжато, в английских субтитрах исправлена одна опечатка. Ignis Player не связан с Blender Foundation.
+**Sprite Fright (2021)**: автор Blender Foundation, studio.blender.org, лицензия CC BY 4.0. Фильм не сокращён, титры сохранены. Для телефона видео пересжато так, чтобы каждая фраза начиналась без задержки; в английских субтитрах исправлена одна опечатка. Ignis Player не связан с Blender Foundation.
